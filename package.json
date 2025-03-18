@@ -2,16 +2,13 @@
   "name": "tamboon-vue",
   "version": "1.0.0",
   "description": "Test HungryHub code challenge for frontend developer",
-  "main": "src/index.js",
   "author": "Ratchagarn Naewbuntad <ratchagarn@omise.co>, Saiqul Haq <saiqulhaq@hungryhub.com>",
   "license": "MIT",
   "scripts": {
-    "server": "json-server --watch db.json --port 3001",
-    "client": "webpack-dev-server",
-    "test": "jest"
+    "server": "json-server --watch db.json --port 3001"
   },
   "dependencies": {
+    "json-server": "^1.0.0-beta.3"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
